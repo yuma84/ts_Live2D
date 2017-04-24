@@ -1,15 +1,23 @@
-declare class UtSystem {
-    getUserTimeMSec (): number;
-}
+// declare class UtSystem {
+//     getUserTimeMSec (): number;
+// }
+//
+// declare class Live2D {
+//     init (): void;
+//     setGL ( gl: any, num?: number ): void;
+// }
+//
+// declare class Live2DModelWebGL {
+//     loadModel ( data: any ): void;
+// }
 
-declare class Live2D {
-    init (): void;
-    setGL ( gl: any, num?: number ): void;
-}
+// export declare function UtSystem (): void;
+// export declare function Live2D (): void;
+// export declare function Live2DModelWebGL (): void;
 
-declare class Live2DModelWebGL {
-    loadModel ( data: any ): void;
-}
+interface UtSystem {}
+interface Live2D {}
+interface Live2DModelWebGL {}
 
 interface Window {
     mozCancelAnimationFrame: any;
